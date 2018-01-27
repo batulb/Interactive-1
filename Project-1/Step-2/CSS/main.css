@@ -43,8 +43,39 @@ div {
     text-decoration-style: wavy;
 }
 
+#petal1{
+  transform: rotate(216deg);
+position: absolute;
+top: 190px;
+right: 488px;
+}
 
+#petal2{
+  transform: rotate(271deg);
+      position: absolute;
+      top: 55px;
+      right: 200px;
+}
 
+#petal3{
+  transform: rotate(326deg);
+    position: absolute;
+    top: 211px;
+    right: -98px;
+}
 
+#petal4{
+  transform: rotate(52deg);
+    position: absolute;
+    top: 652px;
+    right: 17px
+}
+
+#petal5{
+  transform: rotate(148deg);
+      position: absolute;
+      top: 581px;
+      left: 115px;
+}
 
 border:1px solid red
