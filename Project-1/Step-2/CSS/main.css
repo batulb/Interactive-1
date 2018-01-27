@@ -78,4 +78,10 @@ right: 488px;
       left: 115px;
 }
 
+.shadow {
+  text-shadow: 3px 2px #ff0000;
+  border-color: #ff0000;
+}
+
+
 border:1px solid red
