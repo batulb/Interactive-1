@@ -30,8 +30,21 @@ body {
     right: 200px;
 }
 
-div {
+#V2 {
   font-family: avenir;
+  font-size: 30px;
 }
+
+div {
+    width: 726px;
+    margin-bottom: 156px;
+    padding-left: 53px;
+    text-decoration:line-through;
+    text-decoration-style: wavy;
+}
+
+
+
+
 
 border:1px solid red
