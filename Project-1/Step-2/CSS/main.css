@@ -1,0 +1,37 @@
+body {
+  background:white;
+}
+
+.rotate {
+  transform: rotate(45deg)
+}
+.rotate2 {
+  transform: rotate(223deg);
+    position: absolute;
+    top: 140px;
+    right: 240px;
+}
+.rotate3 {
+  transform: rotate(43deg);
+      position: absolute;
+      top: -120px;
+      right: -50px;
+}
+.rotate4 {
+  transform: rotate(133deg);
+  position: absolute;
+  bottom: 10px;
+  right: -260px;
+}
+.rotate5 {
+  transform: rotate(223deg);
+    position: absolute;
+    bottom: -285px;
+    right: 200px;
+}
+
+div {
+  font-family: avenir;
+}
+
+border:1px solid red

@@ -1,0 +1,19 @@
+* {
+    margin: 3px;
+    padding: 4px;
+}
+body {
+  color: palevioletred;
+  background: rgb(175,238,238);
+}
+
+h1 {
+  font-family: avenir;
+}
+
+p { color: midnightblue;
+}
+
+h3 {
+  font-family: avenir;  
+}
