@@ -41,6 +41,8 @@ div {
     padding-left: 53px;
     text-decoration:line-through;
     text-decoration-style: wavy;
+    border-style: dashed;
+    border-width: medium;
 }
 
 #petal1{
