@@ -98,3 +98,30 @@ background-color:HotPink;
 .sky{
   background-color: LightCyan;
 }
+
+.shadow {
+  text-shadow: 50px 2px #ff0000;
+  border-color: #ff0000;
+  font-size: 100px;
+  color: white;
+}
+
+@keyframes blink {
+	0% {opacity: 0}
+	49%{opacity: 0}
+	50% {opacity: 1}
+}
+
+blink{
+  animation: blink 1s infinite;
+}
+
+.v5 {
+  word-spacing: 350px;
+  font-family: 'Sacramento', cursive;
+}
+
+.twinkly{
+   background-image: http://orig10.deviantart.net/e24e/f/2005/257/8/c/stars_1_.gif("stars_1_.gif");
+   background-color: #cccccc;
+}
