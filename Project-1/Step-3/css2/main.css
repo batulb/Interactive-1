@@ -37,17 +37,18 @@ body {
 }
 
 #V2{
-  background-color: DarkGrey;
+  background-color: SaddleBrown;
   font-size: 40px;
   font-family: 'Great Vibes', cursive;
   color: DarkGoldenrod;
+  text-align: center;
 }
 
 div {
     text-decoration:line-through;
-    text-decoration-style: wavy;
     border-style: dashed;
     border-width: medium;
+    text-align: center;
 }
 
 #petal1{
@@ -99,11 +100,16 @@ background-color:HotPink;
   background-color: LightCyan;
 }
 
+.evil{
+  background-color:Firebrick;
+}
+
 .shadow {
   text-shadow: 50px 2px #ff0000;
   border-color: #ff0000;
   font-size: 100px;
-  color: white;
+  color: black;
+  font-family: 'Monda', sans-serif;
 }
 
 @keyframes blink {
