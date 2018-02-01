@@ -1,0 +1,51 @@
+body {
+  background:GreenYellow;
+}
+
+.rotate{
+  transform: rotate(45deg);
+  font-size: 20px
+  border-width: 1px;
+  background-color:DeepPink;
+}
+
+.rotate1{
+  transform: rotate(100deg);
+  font-size: 100px
+  font-style: italic;
+}
+
+.rotate2{
+  transform: rotate(180deg);
+  font-size: 30px
+  border-width: 1px;
+  background-color:Cyan;
+}
+
+.rotate3{
+  transform: rotate(130deg);
+  font-size: 50px
+}
+
+.rotate4{
+  transform: rotate(150deg);
+  position: absolute;
+  top: 435px;
+  right: 48px;
+  font-size: 80px
+
+}
+
+#V2{
+  background-color: DarkGrey;
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+}
+
+div {
+    text-decoration-color: Goldenrod;
+    text-decoration:line-through;
+    text-decoration-style: wavy;
+    border-style: dashed;
+    border-width: medium;
+}
