@@ -49,3 +49,52 @@ div {
     border-style: dashed;
     border-width: medium;
 }
+
+#petal1{
+  transform: rotate(216deg);
+position: absolute;
+top: 190px;
+right: 488px;
+border-width: 1px;
+background-color:HotPink;
+}
+
+#petal2{
+  transform: rotate(271deg);
+      position: absolute;
+      top: 55px;
+      right: 200px;
+      border-width: 1px;
+      background-color:HotPink;
+}
+
+#petal3{
+  transform: rotate(326deg);
+    position: absolute;
+    top: 211px;
+    right: -98px;
+    border-width: 1px;
+    background-color:HotPink;
+}
+
+#petal4{
+  transform: rotate(52deg);
+    position: absolute;
+    top: 652px;
+    right: 17px;
+    border-width: 1px;
+    background-color:HotPink;
+}
+
+#petal5{
+  transform: rotate(148deg);
+      position: absolute;
+      top: 581px;
+      left: 115px;
+   border-width: 1px;
+   background-color:HotPink;
+}
+
+.sky{
+  background-color: LightCyan;
+}
