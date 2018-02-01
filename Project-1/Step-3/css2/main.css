@@ -97,7 +97,7 @@ background-color:HotPink;
 }
 
 .sky{
-  background-color: LightCyan;
+  background:  url("https://media.giphy.com/media/3xz2BVxzjZVnGdgGVW/giphy.gif");
 }
 
 .evil{
@@ -125,9 +125,11 @@ blink{
 .v5 {
   word-spacing: 350px;
   font-family: 'Sacramento', cursive;
+  color: white;
+  font-size: 50px;
 }
 
 .twinkly{
-   background-image: http://orig10.deviantart.net/e24e/f/2005/257/8/c/stars_1_.gif("stars_1_.gif");
+   background-image: url("http://orig10.deviantart.net/e24e/f/2005/257/8/c/stars_1_.gif");
    background-color: #cccccc;
 }
