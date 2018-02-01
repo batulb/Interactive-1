@@ -58,6 +58,7 @@ top: 190px;
 right: 488px;
 border-width: 1px;
 background-color:HotPink;
+font-family: "avenir";
 }
 
 #petal2{
@@ -67,6 +68,7 @@ background-color:HotPink;
       right: 200px;
       border-width: 1px;
       background-color:HotPink;
+      font-family: "avenir";
 }
 
 #petal3{
@@ -76,6 +78,7 @@ background-color:HotPink;
     right: -98px;
     border-width: 1px;
     background-color:HotPink;
+    font-family: "avenir";
 }
 
 #petal4{
@@ -85,6 +88,7 @@ background-color:HotPink;
     right: 17px;
     border-width: 1px;
     background-color:HotPink;
+    font-family: "avenir";
 }
 
 #petal5{
@@ -94,10 +98,13 @@ background-color:HotPink;
       left: 115px;
    border-width: 1px;
    background-color:HotPink;
+   font-family: "avenir";
 }
 
 .sky{
-  background:  url("https://media.giphy.com/media/3xz2BVxzjZVnGdgGVW/giphy.gif");
+  background:  url("https://www.joelix.com/usr/joelix/images/joelix-pink-blossom1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .evil{
