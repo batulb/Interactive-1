@@ -40,10 +40,10 @@ body {
   background-color: DarkGrey;
   font-size: 40px;
   font-family: 'Great Vibes', cursive;
+  color: DarkGoldenrod;
 }
 
 div {
-    text-decoration-color: Goldenrod;
     text-decoration:line-through;
     text-decoration-style: wavy;
     border-style: dashed;
