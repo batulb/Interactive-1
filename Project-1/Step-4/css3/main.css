@@ -21,6 +21,7 @@ body{
 }
 
 a :link{
+  text-decoration: none;
   text-shadow: 50px 2px #ff0000;
   border-color: #ff0000;
   font-size: 100px;
@@ -29,14 +30,7 @@ a :link{
 }
 
 a :visited{
-  text-shadow: 50px 2px #ff0000;
-  border-color: #ff0000;
-  font-size: 100px;
-  color: black;
-  font-family: 'Monda', sans-serif;
-}
-
-a :visited{
+  text-decoration: none;
   text-shadow: 50px 2px #ff0000;
   border-color: #ff0000;
   font-size: 100px;
@@ -45,6 +39,7 @@ a :visited{
 }
 
 a :hover{
+  text-decoration: none;
   text-shadow: 50px 2px #ff0000;
   border-color: #ff0000;
   font-size: 100px;
@@ -53,6 +48,7 @@ a :hover{
 }
 
 a :active{
+  text-decoration: none;
   text-shadow: 50px 2px #ff0000;
   border-color: #ff0000;
   font-size: 100px;
