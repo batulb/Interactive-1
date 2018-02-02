@@ -125,7 +125,7 @@ font-family: "avenir";
 	50% {opacity: 1}
 }
 
-blink{
+.blink{
   animation: blink 1s infinite;
 }
 

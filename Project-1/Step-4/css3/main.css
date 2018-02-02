@@ -1,0 +1,21 @@
+body{
+  background-color:Firebrick;
+}
+
+.evil :hover{
+	color: transparent;
+  text-shadow: 0 0 20px #000;
+  text-shadow
+}
+
+.shadow {
+  text-shadow: 50px 2px #ff0000;
+  border-color: #ff0000;
+  font-size: 100px;
+  color: black;
+  font-family: 'Monda', sans-serif;
+}
+
+.shadow :hover{
+  color: transparent
+}
