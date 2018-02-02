@@ -43,3 +43,19 @@ a :visited{
   color: black;
   font-family: 'Monda', sans-serif;
 }
+
+a :hover{
+  text-shadow: 50px 2px #ff0000;
+  border-color: #ff0000;
+  font-size: 100px;
+  color: black;
+  font-family: 'Monda', sans-serif;
+}
+
+a :active{
+  text-shadow: 50px 2px #ff0000;
+  border-color: #ff0000;
+  font-size: 100px;
+  color: black;
+  font-family: 'Monda', sans-serif;
+}
