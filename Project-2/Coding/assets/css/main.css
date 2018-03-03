@@ -1,0 +1,37 @@
+.title{
+  font-family:monospace;
+  font-size: 100px
+}
+
+.item{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  display: none;
+}
+
+.caption{
+  align-content: center;
+  color: black;
+  font-family: monospace;
+  position: fixed;
+  bottom: 150px;
+  padding-left: 100px
+  width: 100vw;
+  font-size: 30px
+
+
+}
+
+.show{
+  display:flex;
+}
+
+.percent{
+  font-family:monospace;
+  font-size: 50px;
+  color:green;
+}
