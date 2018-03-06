@@ -18,12 +18,12 @@
   color: black;
   font-family: monospace;
   position: fixed;
-  bottom: 150px;
-  padding-left: 100px
+  bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 100vw;
-  font-size: 30px
-
-
+  font-size: 30px;
+  align-items: center; /* align vertical */
 }
 
 .show{
