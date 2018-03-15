@@ -1,5 +1,5 @@
 body{
-  background-color:#96D9FF;
+  background-color:Gainsboro;
 }
 
 .white{
@@ -12,7 +12,7 @@ body{
   position: absolute;
   top: 230px;
   left: 170px;
-  color: blue;
+  color: Firebrick;
 }
 
 .subtitle{
@@ -37,9 +37,10 @@ body{
   position: absolute;
   top: 500px;
   left: 330px;
+  background-color: white;
 }
 
-.subtitle4{
+#impatient{
   font-family: monospace;
   font-size: 15px;
   position: absolute;
@@ -47,11 +48,28 @@ body{
   left: 300px;
 }
 
+.subtitle4{
+  font-family: monospace;
+  font-size: 15px;
+  position: absolute;
+  top: 230px;
+  left: 110px;
+}
+
 .logo{
   position: absolute;
   top:170px;
   left:720px;
 }
+
+.item.last{
+    background: white;
+    left: 200px;
+    height: 569px;
+    width: 800px;
+    z-index: 10000;
+}
+
 
 .download{
    background-color: white;
@@ -78,6 +96,20 @@ body{
    position: absolute;
    top: 590px;
    left: 860px;
+   box-shadow: 1px 3px 5px lightgrey;
+}
+
+.refresh2{
+   background-color: white;
+   border: none;
+   color: black;
+   padding:15px;
+   text-align: center;
+   font-size: 11px;
+   font-family: avenir;
+   position: absolute;
+   top: 490px;
+   left: 667px;
    box-shadow: 1px 3px 5px lightgrey;
 }
 
@@ -112,4 +144,30 @@ body{
   left: 200px;
   box-shadow: 4px 4px 5px lightgrey;
 
+}
+
+.impatientwords{
+  font-family: monospace;
+  font-size: 15px;
+  position: absolute;
+  top: 235px;
+  left: 100px;
+}
+
+#impatient{
+  display: none;
+  background-color: white;
+  z-index: 10000;
+  top:100px;
+  left: 200px;
+  height: 569px;
+  width: 800px;
+}
+
+.percent{
+  display:inline;
+}
+
+.final{
+  display: inline;
 }

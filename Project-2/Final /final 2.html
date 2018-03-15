@@ -21,10 +21,9 @@
 <div class="progressbar">
 <div class="w3-container">
 <div class="w3-white">
-<div id="myBar" class="w3-container w3-blue" style="width:0%">0%</div>
+<div id="myBar" class="w3-container w3-black" style="width:0%">0%</div>
 </div>
 <br>
-<button class="w3-button w3-white" onclick="move()">Click Me</button>
 </div>
 </div>
 
@@ -32,10 +31,11 @@
 function move() {
   var elem = document.getElementById("myBar");
   var width = 0;
-  var id = setInterval(frame, 400);
+  var id = setInterval(frame, 700);
   function frame() {
     if (width >= 98) {
       clearInterval(id);
+			window.location.href = 'final%203.html';
     } else {
       width++;
       elem.style.width = width + '%';
@@ -43,6 +43,7 @@ function move() {
     }
   }
 }
+window.onload = move;
 </script>
 
 </body>
