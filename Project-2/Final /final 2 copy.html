@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Speed</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+  <!-- loading JS -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="white"></div>
+
+<div class="title">Thankyou for Downloading Speed</div>
+<div class="subtitle2">You are on your way to a faster future. The software is downloading now</div>
+<div class="progressbar">
+<div class="w3-container">
+<div class="w3-white">
+<div id="myBar" class="w3-container w3-blue" style="width:0%">0%</div>
+</div>
+<br>
+<button class="w3-button w3-white" onclick="move()">Click Me</button>
+</div>
+</div>
+
+<script>
+function move() {
+  var elem = document.getElementById("myBar");
+  var width = 0;
+  var id = setInterval(frame, 400);
+  function frame() {
+    if (width >= 98) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+
+</body>
+</html>

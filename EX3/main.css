@@ -1,0 +1,47 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	background: black;
+}
+
+p{
+  color: white;
+}
+
+#desktop{
+	opacity: 1;
+	color: white;
+  position:absolute;
+  top:200px;
+  left:250px;
+  font-family: "Avenir";
+}
+
+#print{
+	opacity: 0;
+}
+
+@media print {
+
+	body {
+		background: white;
+	}
+
+	#print{
+		opacity: 1;
+    color: black;
+    margin: 4cm;
+    align-items: center;
+    font-size: 40px;
+	}
+
+  .credits{
+    align-items: baseline;
+    font-size: 11px;
+    color: grey;
+  }
+
+	#desktop {
+		opacity: 0;
+	}
+}

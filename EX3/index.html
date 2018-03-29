@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Excercise 3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css" />
+</head>
+<body onload="getLocation()">
+
+<div id="print">
+I would like to sadly announce the decease of<br /><br />  ______________________. <br/>
+<br />
+Who relocated themselves to another place.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="credits">The Website idea was adapted from Yoko Ono's Announcement Piece in which she says "Give death announcements each time you move instead of giving announcements of the change of address. Send the same when you die"</div>
+</div>
+
+<div id="desktop">
+  <p>Looks like you have relocated yourself. Print to share new location.</p>
+<br/>
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+</div>
+
+</body>
+
+</html>
