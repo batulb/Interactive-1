@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ex3 Extension</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body onload="getLocation()">
+
+<div id="print">
+I would like to sadly announce the decease of<br /><br />  ______________________. <br/>
+<br />
+Who relocated themselves to another place.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="credits">The Website idea was adapted from Yoko Ono's Announcement Piece in which she says "Give death announcements each time you move instead of giving announcements of the change of address. Send the same when you die"</div>
+</div>
+
+<div id="desktop">
+  <p>Looks like you have relocated yourself. Click below. Then Print. </p>
+<br/>
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+</div>
+
+<div class="reason">
+  The reason for death was:
+</div>
+
+</body>
+
+</html>
