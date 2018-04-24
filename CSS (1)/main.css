@@ -1,0 +1,46 @@
+* {
+    margin: 3px;
+    padding: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+  color: palevioletred;
+  background: rgb(175,238,238);
+}
+
+h1 {
+  font-family: avenir;
+  position: fixed;
+  top: 76px;
+  right: 162px;
+}
+
+p { color: midnightblue;
+  float: right;
+  position: fixed;
+  top: 140px;
+  right: 20px;
+}
+
+h3 {
+  font-family: avenir;
+}
+
+#exercises{
+  width: 100px;
+  padding:40px;
+  border-width: 1px;
+
+  background-color: lightyellow;
+}
+
+#projects{
+width: 150px;
+padding: 40px;
+position: center;
+background-color: mistyrose;
+}
+
+a:hover {
+  color: yellow;
+}
