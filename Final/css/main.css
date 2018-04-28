@@ -1,3 +1,7 @@
+body.active {
+  background: blue;
+}
+
 .list{
   font-family: sans-serif;
   font-weight: bold;
@@ -8,7 +12,13 @@
   display: none;
 }
 
+#nextpage{
+  display: none;
+}
+
 @media print {
+
+
 
 .list{
   display:none;
@@ -178,4 +188,16 @@
   grid-column-end: 2;
   justify-content: center;
 }
+.cover{
+  grid-row-start:5;
+  grid-row-end: 5;
+  grid-column-start:4;
+  grid-column-end: 4;
+  justify-content:center;
+}
+}
+
+#nextpage{
+  display: block;
+  page-break-before: always;
 }
