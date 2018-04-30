@@ -1,5 +1,208 @@
-body.active {
-  background: blue;
+#numbers{
+  font-size: 40pt;
+  position: fixed;
+  right:15px;
+  font-family: sans-serif;
+}
+
+body.alarmclock {
+  background-image: url("alarmclock.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 500px;
+}
+
+body.avotoast {
+  background-image: url("avotoast.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.BrooklynBridge {
+  background-image: url("brookylnbridge.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 500px;
+}
+
+body.christderedemeer {
+  background-image: url("christ.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 500px;
+}
+
+body.Coffee {
+  background-image: url("coffee.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.EffielTower {
+  background-image: url("effiel.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.EmpireStateBuilding {
+  background-image: url("empire.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.Fontanaditrevi {
+  background-image: url("fontana.png");
+  background-position: left 3px top 10px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+}
+
+body.Freezejump {
+  background-image: url("freeze.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.Goldengatebridge {
+  background-image: url("golden.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.greatwallchina {
+  background-image: url("greatwall.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.Museedulouvre {
+  background-image: url("louvre.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.nyclove {
+  background-image: url("nyclove.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.paintedladies {
+  background-image: url("painted.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+}
+
+body.Pisa {
+  background-image: url("pisa.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+}
+
+body.pinchthesun {
+  background-image: url("pinch.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+}
+
+body.pulpitrock {
+  background-image: url("pulpit.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+}
+
+body.pyramidsofgiza {
+  background-image: url("pyramid.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.railwaytrack {
+  background-image: url("railway.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.Route66 {
+  background-image: url("route66.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.sphinx {
+  background-image: url("sphinx.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.summer {
+  background-image: url("summer.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.TajMahal {
+  background-image: url("tajmahal.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.travelling {
+  background-image: url("travelling.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+}
+
+body.Ujitime {
+  background-image: url("ujitime.png");
+  background-position: left 3px top 10px;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
 }
 
 .list{
@@ -13,12 +216,18 @@ body.active {
 }
 
 #nextpage{
-  display: none;
+display: none;
+}
+
+#imgprint{
+  display:none;
 }
 
 @media print {
 
-
+#numbers{
+  display: none;
+}
 
 .list{
   display:none;
@@ -28,6 +237,7 @@ body.active {
   display:grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap:10px;
+  align-items: center;
   justify-content: center;
   width: 1224px;
   height: 792px;
@@ -186,18 +396,80 @@ body.active {
   grid-row-end: 6;
   grid-column-start:2;
   grid-column-end: 2;
+  align-items: center;
   justify-content: center;
 }
 .cover{
   grid-row-start:5;
   grid-row-end: 5;
+  grid-column-start:3;
+  grid-column-end: 3;
+  align-items: center;
+  text-align: center;
+  top: 50%;
+  right:50%;
+  font-family: sans-serif;
+  font-size: 18px
+}
+
+.des{
+  grid-row-start:5;
+  grid-row-end: 5;
   grid-column-start:4;
   grid-column-end: 4;
-  justify-content:center;
+  align-items: center;
+  text-align: right;
+  top: 50%;
+  right:50%;
+  font-family: sans-serif;
+  font-size: 10px
 }
+
+.credit{
+  grid-row-start:6;
+  grid-row-end: 6;
+  grid-column-start:4;
+  grid-column-end: 4;
+  align-items: center;
+  text-align: right;
+  top: 50%;
+  right:50%;
+  font-family: sans-serif;
+  font-size: 10px
+
+}
+
+
+#imgprint{
+display: block;
+page-break-before: always;
+width: 1000px;
+object-fit: cover;
+}
+
+#imgprint img{
+  height: 900px;
+  page-break-before: always;
+}
+
+}
+
+/*#grid2{
+  display: none;
+  page-break-before: always;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:10px;
+  justify-content: center;
+  width: 1224px;
+  height: 792px;
 }
 
 #nextpage{
+  display:none;
   display: block;
   page-break-before: always;
+}
+
+
 }

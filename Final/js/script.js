@@ -5,10 +5,17 @@ $(document).ready(function(){
   //})
 
   $(".list span").hover(function(){
-        $(this).addClass("active");
-        //}, function(){
-        //$(this).attr('src', 'ImageColl/'+path+'/''background.png');
+      var background = $(this).data('hastag');
+      var numbers = $(this).data('numbers');
+          $('body').addClass(background);
+          $('#numbers').html(numbers);
+        }, function(){
+      var background = $(this).data('hastag');
+          $('body').removeClass(background);
+          $('#numbers').html('');
     });
+
+
 
 	$('span').click(function() {
 	  var path = $(this).data('hastag');
