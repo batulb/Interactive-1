@@ -7,11 +7,11 @@ $(document).ready(function(){
   $(".list span").hover(function(){
       var background = $(this).data('hastag');
       var numbers = $(this).data('numbers');
-          $('body').addClass(background);
+          $('#background').addClass(background);
           $('#numbers').html(numbers);
         }, function(){
       var background = $(this).data('hastag');
-          $('body').removeClass(background);
+          $('#background').removeClass(background);
           $('#numbers').html('');
     });
 
@@ -29,13 +29,20 @@ $(document).ready(function(){
       $(this).attr('src', 'ImageColl/'+path+'/'+number+'.png');
 
     });
-  });
-
-  $('body').click(function() {
+  // });
+  //
+  // $('body').click(function() {
      //alert('Are you sure? It is permanent');
      var y = window.prompt("How would you feel if someone posted the same photograph as you?")
      // window.alert(y)
      $('.cover').html(y);
+     //window.print();
     });
+
+  $blocks.each(function(i, elm) {
+  $(elm).fadeOut(200, function() {
+  $(elm).remove();
+ });
+}).promise().done( function(){ alert("All was done"); } );
 
 });
