@@ -20,6 +20,10 @@ $(document).ready(function(){
 	$('span').click(function() {
 	  var path = $(this).data('hastag');
 
+    var y = window.prompt("How would you feel if someone posted the same photograph as you?")
+    // window.alert(y)
+    $('.cover').html(y);
+    //alert("Print Now");
 
     $('#grid img').each(function(){
 
@@ -28,21 +32,18 @@ $(document).ready(function(){
 
       $(this).attr('src', 'ImageColl/'+path+'/'+number+'.png');
 
-    });
+    }).promise().done( function(){ window.print(); } );
   // });
   //
   // $('body').click(function() {
      //alert('Are you sure? It is permanent');
-     var y = window.prompt("How would you feel if someone posted the same photograph as you?")
-     // window.alert(y)
-     $('.cover').html(y);
-     alert("Print Now");
+
     });
 
-  $blocks.each(function(i, elm) {
-  $(elm).fadeOut(200, function() {
-  $(elm).remove();
- });
-}).promise().done( function(){ alert("All was done"); } );
+//   $blocks.each(function(i, elm) {
+//   $(elm).fadeOut(200, function() {
+//   $(elm).remove();
+//  });
+// }).promise().done( function(){ alert("All was done"); } );
 
 });
