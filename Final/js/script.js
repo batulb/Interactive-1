@@ -36,7 +36,7 @@ $(document).ready(function(){
      var y = window.prompt("How would you feel if someone posted the same photograph as you?")
      // window.alert(y)
      $('.cover').html(y);
-     //window.print();
+     alert("Print Now");
     });
 
   $blocks.each(function(i, elm) {
